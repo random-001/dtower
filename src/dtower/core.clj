@@ -3,6 +3,11 @@
    [portal.api :as p]))
 
 
-(def p (p/open))
-
 (add-tap #'p/submit)
+
+
+(comment
+ (def p (p/open))
+ (def p (p/open {:launcher :intellij})))
+
+(tap> "Hello portal")
