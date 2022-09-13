@@ -7,6 +7,7 @@
                  [weavejester/dependency "0.2.1"]
                  [metosin/malli "0.8.9"]
                  [vvvvalvalval/scope-capture "0.3.3-s1"]
-                 [djblue/portal "0.29.1"]]
+                 [djblue/portal "0.30.0"]
+                 [clj-http "3.12.3"]]
 
   :repl-options {:init-ns dtower.core})
